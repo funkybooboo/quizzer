@@ -1,0 +1,22 @@
+{
+  "q1": {
+    "prompt": "What is the capital of France?",
+    "answer": ["Paris"],
+    "distractors": ["Berlin", "Madrid", "Rome"]
+  },
+  "q2": {
+    "prompt": "Which planet is known as the Red Planet?",
+    "answer": ["Mars"],
+    "distractors": ["Earth", "Jupiter", "Saturn"]
+  },
+  "q3": {
+    "prompt": "What are the primary colors?",
+    "answer": ["Red", "Blue", "Yellow"],
+    "distractors": ["Green", "Purple", "Orange"]
+  },
+  "q4": {
+    "prompt": "Which of the following are programming languages?",
+    "answer": ["Python", "Java", "C++"],
+    "distractors": ["HTML", "CSS", "SQL"]
+  }
+}
