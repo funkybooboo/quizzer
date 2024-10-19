@@ -63,6 +63,25 @@ The application expects a JSON file named `questions.json` in the same directory
 - The `answer` field is a list of correct answers.
 - The `distractors` field is a list of incorrect options.
 
+## Types of Questions
+
+In this quiz application, there are two types of questions:
+
+1. **Single Answer Questions**:
+   - These questions allow only one correct answer. When answering, simply enter the number corresponding to your choice.
+   - **Example**: If the question is "What is the capital of France?" with options ["1: Paris", "2: Rome"], you would type `1` for the correct answer.
+
+2. **Multiple Answer Questions**:
+   - These questions allow you to select multiple correct answers. You need to enter the numbers corresponding to all the correct answers, separated by spaces.
+   - **Example**: If the question is "Which of the following are fruits?" with options ["1: Apple", "2: Carrot", "3: Banana"], you would type `1 3` to indicate both Apple and Banana are correct.
+
+### How to Answer
+
+- **Single Answer**: Enter the number for your choice (e.g., `1`).
+- **Multiple Answers**: Enter the numbers for your choices separated by spaces (e.g., `1 3`).
+
+This distinction helps clarify how to interact with the quiz and ensures users understand how to select their answers effectively.
+
 ## How to Run
 
 1. Ensure you have Python 3.x installed.
