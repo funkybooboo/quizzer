@@ -1,4 +1,4 @@
-# Quiz Application
+# Quizzer
 
 A simple interactive quiz application written in Python. The application loads questions from a JSON file, presents them to the user, and tracks their score based on correct and incorrect answers.
 
